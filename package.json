@@ -16,7 +16,11 @@
     "api",
     "client"
   ],
-  "author": "",
+  "author": "kommanderx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kommanderx/goodwe-sems-client"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
