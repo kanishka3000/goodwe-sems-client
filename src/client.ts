@@ -63,10 +63,7 @@ export class SemsClient {
   }
 
   private async ensureAuthenticated(): Promise<TokenData> {
-    if (!this.tokenData) {
-      return this.login();
-    }
-    return this.tokenData;
+    return this.login();
   }
 
   private buildAuthHeaders(token: TokenData): Record<string, string> {
